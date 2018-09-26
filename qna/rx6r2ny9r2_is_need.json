@@ -1,0 +1,13 @@
+{
+  "id": "rx6r2ny9r2_is_need",
+  "data": {
+    "questions": [
+      "Is need?"
+    ],
+    "answer": "Yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

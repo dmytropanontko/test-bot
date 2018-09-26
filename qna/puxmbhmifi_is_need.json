@@ -1,0 +1,13 @@
+{
+  "id": "puxmbhmifi_is_need",
+  "data": {
+    "questions": [
+      "Is need?"
+    ],
+    "answer": "Yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

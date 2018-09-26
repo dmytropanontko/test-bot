@@ -1,0 +1,81 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "choice-519d6b",
+  "nodes": [
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "getUserVariable {\"name\":\"nickname\",\"output\":\"$r\"}",
+        "say #!builtin_single-choice-lXxt8b"
+      ],
+      "onReceive": [
+        "yourCustomAction {\"name\":\"value\"}"
+      ],
+      "next": [
+        {
+          "condition": "event.action.value=== \"yes\"",
+          "node": "node-52aa"
+        },
+        {
+          "condition": "true",
+          "node": "node-52aa"
+        }
+      ]
+    },
+    {
+      "id": "26009437b7",
+      "name": "node-699e",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-jVoBrN"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "15f3334569",
+      "name": "node-8d03",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-sdOq2b"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "2d649ceb9b",
+      "name": "node-52aa",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-TUXfkG"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-519d6b",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-519d6b",
+      "flow": "skills/choice-519d6b.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "state['skill-choice-ret'] == \"yes\"",
+          "node": "node-699e"
+        },
+        {
+          "caption": "User picked [no]",
+          "condition": "state['skill-choice-ret'] == \"no\"",
+          "node": "node-8d03"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

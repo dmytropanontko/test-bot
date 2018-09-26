@@ -1,0 +1,13 @@
+{
+  "id": "dhq9ozaov7_new",
+  "data": {
+    "questions": [
+      "new"
+    ],
+    "answer": "yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

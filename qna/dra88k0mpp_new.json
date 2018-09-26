@@ -1,0 +1,13 @@
+{
+  "id": "dra88k0mpp_new",
+  "data": {
+    "questions": [
+      "New ?"
+    ],
+    "answer": "Yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

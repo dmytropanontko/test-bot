@@ -1,0 +1,25 @@
+[
+  {
+    "id": "builtin_single-choice-lXxt8b",
+    "formData": {
+      "text": "Do you need more?",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "yes"
+        },
+        {
+          "title": "No",
+          "value": "no"
+        },
+        {
+          "title": "other",
+          "value": "other"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-09-12T11:41:54.015Z"
+  }
+]

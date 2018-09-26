@@ -1,0 +1,13 @@
+{
+  "id": "26hux2mulv_is_it_true",
+  "data": {
+    "questions": [
+      "Is it true?"
+    ],
+    "answer": "yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

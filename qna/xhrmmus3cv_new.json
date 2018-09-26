@@ -1,0 +1,13 @@
+{
+  "id": "xhrmmus3cv_new",
+  "data": {
+    "questions": [
+      "new"
+    ],
+    "answer": "yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}

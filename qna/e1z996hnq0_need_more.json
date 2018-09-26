@@ -1,0 +1,13 @@
+{
+  "id": "e1z996hnq0_need_more",
+  "data": {
+    "questions": [
+      "Need more?"
+    ],
+    "answer": "yes",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "enabled": true
+  }
+}
