@@ -52,7 +52,7 @@ module.exports = async bp => {
     }
   })
 
-  bp.qna.registerCategories(['animal', 'cars', 'svmax'])
+  // bp.qna.registerCategories(['animal', 'cars', 'svmax'])
 }
 
 async function registerBuiltin(bp) {
